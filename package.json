@@ -1,0 +1,56 @@
+{
+    "name": "@grimen/humanizer",
+    "version": "0.1.1",
+    "description": "A developer friendly data/value humanizer for debugging/logging - for Python.",
+    "keywords": [
+        "humanizer",
+        "humanize",
+        "data",
+        "value",
+        "formatting",
+        "format",
+        "logging",
+        "log",
+        "debugging",
+        "debug",
+        "printing",
+        "print"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/grimen/js-humanizer.git"
+    },
+    "bugs": {
+        "url": "https://github.com/grimen/js-humanizer/issues"
+    },
+    "homepage": "https://github.com/grimen/js-humanizer#readme",
+    "author": "Jonas Grimfelt <jonas@markable.ai> (https://github.com/grimen)",
+    "license": "MIT",
+    "main": "index.js",
+    "scripts": {
+        "test": "npx jest",
+        "test-ci": "npx jest --runInBand --forceExit --detectOpenHandles --coverage",
+        "test-dev": "npx jest --watch",
+        "validate": "npx eslint \"**/*.js\"",
+        "release": "./bin/release",
+        "coverage": "npx jest --coverage",
+        "coverage-codecov": "npx codecov"
+    },
+    "dependencies": {
+        "@grimen/mybad": "^0.2.1",
+        "sprintf-js": "^1.1.2"
+    },
+    "devDependencies": {
+        "babel-eslint": "^10.0.1",
+        "codecov": "^3.2.0",
+        "eslint": "^5.14.1",
+        "jest": "^24.1.0",
+        "jest-tobetype": "^1.2.3"
+    },
+    "jest": {
+        "bail": true,
+        "verbose": true,
+        "testRegex": "test_.*\\.js",
+        "testEnvironment": "node"
+    }
+}
