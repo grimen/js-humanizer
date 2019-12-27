@@ -1,7 +1,7 @@
 {
     "name": "@grimen/humanizer",
     "version": "0.1.0",
-    "description": "A developer friendly data/value humanizer for debugging/logging - for Python.",
+    "description": "A developer friendly data/value humanizer for debugging/logging - for JavaScript/Node.",
     "keywords": [
         "humanizer",
         "humanize",
