@@ -24,7 +24,7 @@
         "url": "https://github.com/grimen/js-humanizer/issues"
     },
     "homepage": "https://github.com/grimen/js-humanizer#readme",
-    "author": "Jonas Grimfelt <jonas@markable.ai> (https://github.com/grimen)",
+    "author": "Jonas Grimfelt <grimen@gmail.com> (https://github.com/grimen)",
     "license": "MIT",
     "main": "index.js",
     "scripts": {
